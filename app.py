@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load('recipe_model.pkl')
+model = joblib.load('recipe_model_small.pkl')
 
 st.title("🍽️ Recipe Rating Predictor")
 st.write("Enter recipe details to predict if it will be highly rated!")
